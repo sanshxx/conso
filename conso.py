@@ -38,7 +38,6 @@ def consolidate_sheets(file_list, selected_sheets):
 # -------------- Streamlit Web Interface --------------
 
 st.title('Data Consolidation Tool')
-st.info("The login requirement has been removed. You can now use the tool directly.")
 
 # 1. Select File Type
 st.header('File Consolidation')
@@ -87,3 +86,4 @@ st.markdown("""
     </style>
     <div class="footer">By Ansh Gandhi | +91 75888 34433</div>
 """, unsafe_allow_html=True)
+
